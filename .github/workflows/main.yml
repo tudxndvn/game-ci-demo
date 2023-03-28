@@ -2,10 +2,8 @@ name: GameCI Template 🎮
 
 on: push
 
-permissions:
-  contents: 'read'
-  id-token: 'write'
-  issues: 'write' #__This fixed the HttpError: Resource not accessible by integration
+permissions: read-all|write-all
+
 
 env:
   UNITY_LICENSE: ${{ secrets.UNITY_LICENSE }}
