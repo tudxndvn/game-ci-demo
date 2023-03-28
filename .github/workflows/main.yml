@@ -2,8 +2,8 @@ name: GameCI Template 🎮
 
 on: push
 
-permissions:
-  actions: read|write
+permissions: read-all|write-all
+
 
 
 env:
